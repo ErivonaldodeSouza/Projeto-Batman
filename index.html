@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto-Batman</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilo.css">
+
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <main class="personagens">
+        <div class="personagem selecionado">
+            <picture>
+                <source srcset="./src/imagens/o-batmanr-desktop.jpg" media="(min-width: 768px)">
+                <img class=imagem src="./src/imagens/redrain.png" alt="Imagem do Batman">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Origem</h2>
+                <p class="descricao">Na sombria Gotham City, um garoto chamado Bruce Wayne testemunhou o assassinato de
+                    seus pais em um beco. Tomado pela dor e pelo desejo de justiça, ele jurou combater o crime. Anos
+                    depois, Bruce treinou sua mente e corpo ao redor do mundo, dominando artes marciais, investigação e
+                    técnicas de espionagem. Ao voltar para Gotham, encontrou um símbolo que representaria seu medo — um
+                    morcego. Assim nasceu o Batman: o vigilante mascarado que protege os inocentes, assombra os
+                    criminosos e luta incansavelmente para tornar Gotham um lugar melhor.</p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/batmaner-desktop.jpg" media="(min-width: 768px)">
+                <img class=imagem src="./src/imagens/scratchy-the-batman-iphone-logo-v6mne8grmekg8nej.jpg" alt="Imagem do Batman">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Características</h2>
+                <p class="descricao">O Batman tem uma personalidade sombria, fria, determinada, implacável e vigilante.
+                    Ele é um herói que luta contra o crime e a corrupção em Gotham City.</p>
+            </div>
+
+        </div>
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao batman selecionado">
+                <img src="./src/imagens/batman_icon_1.png" alt="Ícone 1">
+            </button>
+        </li>
+        <li>
+            <button class="botao batman-e-robin">
+                <img src="./src/imagens/batman_icon_4.png" alt="Ícone 2">
+            </button>
+        </li>
+    </ul>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
